@@ -1,0 +1,368 @@
+body.toplevel_page_registration, body.registration_page_registration_settings_help {
+	background-color: #f1f1f1;	
+	overflow-y:scroll;
+}
+
+.registration-wrapper {
+	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.registration-form .form-control {
+	background: #f7f7f7 !important;
+}
+
+.registraion-panel > .panel{
+	border: 0px;
+
+}
+
+.registraion-panel .select2-container {
+	width: 100% !important;
+
+}
+
+.registraion-panel > .panel-default > .panel-heading {
+	background: #d3d3d3;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	padding: 5px 10px;
+}
+
+.registraion-panel .panel-title {
+	background: #d3d3d3;
+	padding: 5px;
+	margin: 0;
+}
+
+.registraion-panel {
+	border: 1px solid #d3d3d3;
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+.registraion-panel:nth-child(1) {
+	margin-top: 0;
+}
+
+.registration-body {
+	padding: 10px;
+}
+
+.registraion-panel .panel-title .heading-icon{color: #3f3f3f;}
+.registraion-panel .panel-title a:focus, .registraion-panel .panel-title a:hover{text-decoration: none; box-shadow: none;}
+
+.registraion-panel .panel-title .heading-icon i {
+	float: right;
+	font-size: 20px;
+	cursor: pointer;
+	color: #093c7f;
+	transition: 0.5;
+}
+i.add-btn-single{
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.5;
+	background: #093c7f;
+	color: #fff;
+	padding: 7px 17px;
+	border-radius: 4px;
+}
+i.add-btn-single:hover{background:#008000;}
+
+.registraion-panel .panel-title .heading-icon .add-btn:hover{color:#008000; opacity:1;}
+.registraion-panel .panel-title .heading-icon .delete-btn:hover{color:#ff0000; opacity:1;}
+
+.registraion-panel .panel-title a {
+	color: #3f3f3f;
+	display: inline-block;
+	width: 80%;
+}
+
+
+.default, .check-option, .select-option, .placehoder{
+	display: none;
+}
+
+.default.active{display:block;}
+.placehoder.active{display:block;}
+.check-option.active{display:block;}
+.select-option.active{display:block;}
+.check-label {
+	margin-bottom: -3px !important;
+	padding-right: 25px;
+}
+
+.ttl{
+	font-weight: 700;
+}
+
+.social-panel label {
+	font-weight: 400;
+}
+
+#check-hidden, #reqired {
+	margin-right: 5px;
+}
+
+
+.delete-btn, .add-btn {
+	padding-right: 4px;
+	z-index: 55;
+}
+
+
+.req_text, .req_select{
+	display: none;
+}
+
+.req_text.active, .req_select.active{
+	display: block;
+}
+
+.registration-header {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px 30px;
+	margin: 20px 0;
+}
+
+.registration-right-box {
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding: 15px;
+	width: 100%;
+	min-height: 300px;
+}
+
+.registration-wrapper .nav-tab-wrapper .nav-tab:nth-child(1) {
+	margin-left: 0;
+}
+
+#the-list td input {
+	margin: 1px;
+	padding: 5px 11px;
+	border: none;
+	font-weight: 700;
+	width: 80%;
+}
+
+#pfm_shortcode_on_right input, #misc-publishing-actions input.shortcode_text {
+	margin: 1px;
+	padding: 5px 11px;
+	border: none;
+	font-weight: 700;
+	width: 80%;
+}
+
+.registration-wrapper .nav-tab{cursor:pointer;}
+
+.tab-custom-notification {
+	display: none;
+}
+.tab-edit.active {
+	display: none;
+}
+
+.tab-custom-notification.active{
+	display: block;
+}
+
+/***| Help Page CSS Star Here |***/
+
+.setting-help {
+	padding: 0 15px;
+	margin: 10px 0;
+}
+
+.tab-edit{
+	background: #fff;
+	padding: 20px 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.req-option-set {
+	padding-bottom: 15px;
+}
+
+.white-bg .form-control, 
+#notification_form .form-control, 
+.profile-maker-tools .form-control {
+	background: #f7f7f7 !important;
+}
+
+
+.que-bg {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-top: none;
+	padding: 20px 10px;
+	margin-top: -1px;
+}
+
+.general-que {
+	margin: 1em 0;
+}
+
+.grid-icon i {
+    color: red;
+}
+
+.profile-maker-role .list-group, .profile-maker-role .add-role-wrapper {
+	width: 30%;
+}
+
+.profile-maker-role .list-group {
+	padding-top: 30px;
+}
+
+.add-role-btn{
+	cursor: pointer;
+	background-color: #286090 !important;
+	border-color: #286090 !important;
+	color: #fff !important;
+	position: relative;
+}
+
+.profile-maker-role-wrapper .bootstrap-wrapper .container {
+	margin-left: 0;
+}
+
+.add-role {
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+/***(===| profile-maker-btn CSS Start |===)***/
+
+.profile-btn-wrapper {
+	display: flex;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.profile-btn-wrapper .pro-cmn-btn{
+	padding: 23px 15px;
+	margin-right: 15px;
+}
+
+.profile-btn-wrapper .pro-cmn-btn a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px 15px;
+	border: 1px solid transparent;
+	text-transform: uppercase;
+}
+
+.profile-btn-wrapper .pro-cmn-btn a:focus{
+	box-shadow: none;
+}
+
+.pro-cmn-btn.add-custom-field-btn {
+	background: #84868F;
+	transition: 0.4s;
+}
+
+.pro-cmn-btn.create-reg-btn {
+	background: #363A3C;
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.pro-cmn-btn.profile-form-btn {
+	background: #417CB8;
+	transition: 0.4s;
+}
+
+.pro-cmn-btn.create-member-btn {
+	background: #C75A82;
+	transition: 0.4s;
+}
+
+.pro-cmn-btn.add-custom-field-btn:hover,
+.pro-cmn-btn.create-reg-btn:hover,
+.pro-cmn-btn.profile-form-btn:hover,
+.pro-cmn-btn.create-member-btn:hover{
+	opacity: 0.5;
+}
+/***(===| profile-maker-btn CSS End   |===)***/
+
+.my-radio input[type="radio"] {
+  display: none; 
+}
+
+
+.my-radio label {
+	border: 1px solid #008EC2;
+	text-align: center;
+	color: #000 !important;
+	background: transparent !important;
+	padding: 20px 50px !important;
+	margin: 15px 10px 0 0 !important;
+	font-size: 18px;
+}
+
+.my-radio input[type="radio"]:checked + label {
+	background: #008EC2 !important;
+	color: #fff !important;
+}
+
+.well-lg {
+	padding: 15px !important;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper .btn-up {
+	border: 1px solid #84868F;
+	color: #fff !important;
+	background-color: #84868F;
+	padding: 11px 20px;
+	font-size: 18px !important;
+}
+
+.upload-btn-wrapper .btn-up i {
+	padding-right: 8px;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.import-btn {
+	background: #417CB8;
+	display: inline-block;
+	padding: 15px 50px;
+	font-size: 16px !important;
+	color: #fff !important;
+	cursor: pointer !important;
+	text-transform: uppercase;
+	border: none;
+}
+
+.profile-maker-title {
+	padding-bottom: 15px;
+}
+
+
