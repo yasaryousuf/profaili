@@ -1,10 +1,8 @@
 <?php 
 /*
 Plugin Name: Profile Maker
-Description: Building directory list as your need. This is beta version. If you see any bug, notify us. We will be grateful to you.
-Plugin URI: https://opcodespace.com
-Author: Opcodespace <mehedee@opcodespace.com>
-Author URI: http://opcodespace.com
+Description: Building Forms in Wordpress
+Author: Yasar Yousuf <yousuf802@gmail.com>
 Version: 0.1
 Text Domain: profile-maker
 */
